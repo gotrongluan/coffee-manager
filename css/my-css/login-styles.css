@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	height: 100vh;
+	background-color: #2f323e;
+	font-size: 1vw;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.display-table { display: table; width: 100%; height: 100%; margin: 0; }
+
+.display-table-cell { display: table-cell; vertical-align: middle; }
+
+.main-login {
+	width: 30%;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+.head-main, .foot-main {
+	height: 60px;
+	width: 30%;
+	margin: auto;
+	background-color: #383C4A;
+}
+
+
+
+.logo-login {
+	margin: 0;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.logo-login div {
+	width: 30%;
+	margin: auto;
+}
+
+.logo-login img {
+	width: 100%;
+	height: auto;
+}
+
+.main-input {
+	margin-bottom: 10px;
+	color: #555;
+	border: 1px solid #2f323e;
+}
+
+span { color: #555;}
+
+.i-container {
+	display: inline-block;
+	padding: 5px 10px;
+	color: #fff;
+	background-color: #2f323e;
+	
+}
+
+form {
+	width: 65%;
+	margin: auto;
+	padding: 0 10px;
+}
+
+input[type=text], input[type=password] {
+	background-color: #fff;
+	border: none;
+	padding: 5px;
+	outline: none;
+	height: 100%;
+}
+
+input[type=password] { padding-left: 10px;}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #555;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #555;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #555;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #555;
+}
+
+.exception { font-size: 0.95vw; margin-bottom: 15px;} 
+
+.sub-exp {
+	width: 50%;
+	float: right;
+	border: none;
+}
+
+#forgot { float: right; line-height: 28px;}
+
+input[type=checkbox] { margin-top: 6px;}
+
+.button-container { width: 100%; }
+
+input[type=submit] {
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #008080;
+	padding: 8px 0;
+	border-radius: 4px;
+}
+
+.to-register { width: 65%; margin: auto; padding: 0 10px;}
+
+.to-register div{
+	margin-top: 30px;
+	border-top: 1px solid #2f323e;
+	padding-top: 10px;
+	text-align: center;
+}
+
+a:link, a:visited {
+	color: #2f323e;
+	/*color: orange;*/
+	text-decoration: none;
+}
+
+.notify {
+	color: red;
+	width: 100%;
+	margin-bottom: 5px;
+	font-size: 12px;
+}

@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/*background-image: url('../../assets/wall4.jpeg');
+	background-size: 100% auto;*/
+  	background-color: rgb(237, 241, 245);
+}
+
+nav.title {
+	background-color: #fff;
+	font-weight: bold;
+	color: black;
+}
+
+.breadcrumb {
+	background-color: #fff !important;
+}
+
+.main-item {
+	border-radius: 3px;
+	background-color: #fff;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.name-coffee-shop {
+	padding-left: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-right: 10px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.name-coffee-shop b {
+	color: red;
+}
+
+.name-coffee-shop b:hover {
+	color: orange;
+}
+
+.address-coffee-shop {
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	text-align: justify;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 13px;
+	color: gray;
+}
+
+.desc-coffee-shop {
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 13px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: hidden;
+	line-height: 20px;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    height: 44px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.count-like {
+	padding: 5px 10px 5px 10px;
+}
+
+hr.otr {
+	width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media only screen and (max-width: 868px) {
+	#band {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	#band {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

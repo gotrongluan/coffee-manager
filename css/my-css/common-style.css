@@ -1,0 +1,178 @@
+body {
+      font: Arial, sans-serif;
+      color: #777;
+  }
+
+.container {
+      padding: 80px 120px;
+}
+
+.navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  } 
+  textarea {
+      resize: none;
+  }
+#main-footer {
+  background-color: #333;
+  color: white;
+  padding-top: 3.75em;
+  padding-bottom: 1.875em;
+  /*position: fixed;*/
+  /*bottom: 0;
+  right: 0;*/
+  width: 100%;
+}
+
+#sub-footer {
+  max-width: 80%;
+  margin: auto;
+}
+
+.my-col {
+  float: left;
+  width: 33.33%;
+}
+
+#pos {
+  line-height: 1.65;
+}
+
+#mail {
+  padding-left: 3em;
+  line-height: 1.65;
+}
+
+#linked-list {
+  text-align: center;
+}
+
+#linked-list ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1em;
+}
+
+#linked-list a {
+  text-decoration: none;
+  color: lightblue;
+}
+  .scroll-top {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  display: none;
+}
+
+.scroll-top i {
+  display: inline-block;
+  color: white;
+}
+
+.btn-primary {
+  background-color: rgb(221,221,221);
+  border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: black;
+  border: 1px solid black;
+}
+.clearboth {
+  clear: both;
+}
+
+@media only screen and (max-width: 645px)
+{
+  .my-col {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  #pos {
+    margin-bottom: 25px;
+  }
+
+  #mail {
+    padding-left: 0;
+    margin-bottom: 35px;
+  }
+}
+
+#logo-img {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 10px solid #f1f1f1 !important;
+  border-radius: 8px !important;
+}
+
+.info-form {
+	padding: 20px 40px;
+	border: none;
+  background-color: #fff;
+	/*border-radius: 4px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;*/
+}
+
+input[type=text], input[type=password], input[type=email], input[type=date] {
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #008080;
+	background-color: transparent;
+	border-radius: 0;
+	box-shadow: none;
+	padding-left: 6px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:focus {
+	outline: none;
+	box-shadow: none;
+	border: none;
+	border-bottom: 2px solid orange;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=date]:hover {
+	background-color: #fdfdfd;
+}
+
+@media only screen and (max-width: 770px) {
+    #logo-link {
+        display: none;
+    }
+
+}

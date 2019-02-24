@@ -1,0 +1,15 @@
+* {box-sizing: border-box;}
+
+body {
+    background-image: url('../../assets/wall1.jpg');
+    background-size: cover;
+}
+
+.white-box {
+  background-color: #fff;
+  padding: 20px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}

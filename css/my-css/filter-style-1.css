@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+}
+html {
+    width: 100%;
+}
+body {
+	background-image: url('../../assets/wall4.jpeg');
+	background-size: auto;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.display-table { display: table; width: 100%; height: 100%; margin: 0; }
+
+.display-table-cell { display: table-cell; vertical-align: middle; }
+.main-filter {
+	background-color: #fff;
+	border: none;
+	padding: 30px 10px;
+    margin-bottom: 20px;
+}
+
+/*.main-filter {
+	font-size: 13px;
+	padding: 26px 10px 16px 25px;
+    border: 0.5px solid lightgray;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    height: 309px;
+}
+
+#t-clear {
+    display: none;
+}*/
+/* CSS for check boxes */
+.check-c {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-c input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark, .checkmark-r {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.checkmark {
+	border: 1px solid black;
+}
+
+.checkmark-r {
+	border: 1px solid tomato;
+}
+
+.check-c:hover input ~ .checkmark {
+    border-color: black;
+}
+
+.check-c:hover input ~ .checkmark-r {
+	border-color: tomato
+}
+
+.check-c input:checked ~ .checkmark {
+    background-color: black;
+}
+
+.check-c input:checked ~ .checkmark-r {
+	background-color: tomato;
+}
+
+.checkmark:after, .checkmark-r:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check-c input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.check-c input:checked ~ .checkmark-r:after {
+    display: block;
+}
+
+.check-c .checkmark:after {
+    left: 0.2em;
+    top: 0.1em;
+    width: 0.6em;
+    height: 0.8em;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.check-c .checkmark-r:after {
+    left: 0.2em;
+    top: 0.1em;
+    width: 0.6em;
+    height: 0.8em;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* CSS for fil-col */
+.fil-col, .fil-col-0 {
+	float: left;
+	width: 33%;
+}
+
+.button-container {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.btn-outline-dark {
+	border: 1px solid black;
+	color: black;
+	padding: 10px 15px;
+	background-color: #fff;
+	border-radius: 0;
+	font-weight: bold;
+}
+
+.btn-outline-dark:hover {
+	background-color: black;
+	color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+    #band {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    #band {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    #band {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #band {
+        font-size: 12px;
+    }
+}

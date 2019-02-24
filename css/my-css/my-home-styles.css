@@ -1,0 +1,73 @@
+
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+  }
+
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); /* make all photos black and white */ 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+
+
+@media only screen and (max-width: 770px) {
+    #band {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .slogan {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    #band {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .title-slogan {
+      margin-bottom: 0;
+      font-size: 2.6vw;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    #band {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #band {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 60px;
+    }
+    .person {
+      margin-bottom: 10px;
+    }
+}

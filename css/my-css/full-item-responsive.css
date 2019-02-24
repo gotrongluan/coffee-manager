@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1090px) {
+	#avatars {
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 774px) {
+	#band {
+		padding-right: 90px;
+		padding-left: 90px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	#information {
+		font-size: 12px;
+		margin-bottom: 0;
+	}
+	#title-name {
+		font-size: 14.5px;
+	}
+	.header-content-title {
+		font-size: 16px;
+	}
+	.item-name {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	#band {
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+}
+
+@media only screen and (max-width:420px) {
+	#band {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}

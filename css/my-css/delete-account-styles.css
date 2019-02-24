@@ -1,0 +1,13 @@
+.main-div {
+	padding: 12px 20px;
+	/*border: 1px solid lightgray;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;*/
+	background-color: #fff;
+	border: none;
+}
+
+body {
+	background-image: url('../../assets/wall1.jpg');
+	background-size: 100% auto;
+}
